@@ -1,0 +1,84 @@
+.astrobox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    /* background: #000; */
+}
+.renderbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  /* margin: 10px; */
+}
+.Forecast{
+    height: 100%;
+}
+
+
+
+#pageloader {
+    height: 150px;
+    width: 150px;
+}
+#pageloader circle {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+#pageloader circle:nth-child(1) {
+    stroke: rgb(9, 242, 250);
+    stroke-dasharray: 50;
+}
+#pageloader circle:nth-child(2) {
+    stroke: yellow;
+    stroke-dasharray: 100;
+}
+#pageloader circle:nth-child(3) {
+    stroke: rgb(103, 255, 1);
+    stroke-dasharray: 180;
+}
+#pageloader circle:nth-child(4) {
+    stroke: rgb(109, 0, 252);
+    stroke-dasharray: 350;
+    stroke-dashoffset: -100;
+}
+/* creating keyframes animation */
+@keyframes loader {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+#pageloader circle {
+    animation-name: loader;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transform-origin: center center;
+}
+#pageloader circle:nth-child(1) {
+    animation-delay: -0.4s;
+}
+#pageloader circle:nth-child(2) {
+    animation-delay: -0.8s;
+}
+#pageloader circle:nth-child(3) {
+    animation-delay: -1.6s;
+}
+#pageloader circle:nth-child(4) {
+    animation-delay: -3.2s;
+}
+#containerload{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 18vh;
+  margin-top: 150px;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

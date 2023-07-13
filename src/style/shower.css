@@ -1,0 +1,70 @@
+.rainbox {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30%;
+    
+    /* position: relative; */
+    /* animation: myfirst 5s 2; */
+}
+.rainimg {
+  width: 30%;
+  height: 100%;
+}
+.show-container{
+ background:  #1aadad54
+}
+#rain {
+    height: 170px;
+    width: 200px;
+    animation: myfirst 2s linear infinite;
+    animation-direction: alternate;
+  }
+  .peoplebox {
+    animation: myfirst 4s linear infinite;
+    animation-direction: normal;
+  }
+  #sun {
+    height: 170px;
+    width: 200px;
+    position: absolute;
+    animation: myfirst 4s linear infinite;
+    animation-direction: alternate;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .sbox {
+    /* height: 275px;
+    width: 350px; */
+    position: absolute;
+    animation: myfirst 4s linear infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myfirst {
+    0% {
+      margin-left: 0%;
+    }
+    50% {
+      margin-left: 50%;
+    }
+    100% {
+      margin-left: 70%;
+    }
+  }
+  .sunimg {
+    width: 50%;
+    height: 100%;
+  }
+  .people {
+    width: 450px;
+    height: 250px;
+  }
+  .sunrun{
+    margin-top: 45px;
+
+  }

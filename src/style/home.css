@@ -1,0 +1,70 @@
+.home {
+  height: 100%;
+  width: 100%;
+  background-image: url("../asset/cmap.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.box {
+  /* border: 2px solid skyblue; */
+  height: 30%;
+  width: 80%;
+  background: local;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+h1 {
+  margin: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 60px;
+  color: rgb(0, 71, 8);
+}
+
+  .bubble {
+    width: 20%;
+    height: 15%;
+    left: 73%;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vmin;
+    background: #ffd;
+    box-shadow: 0 -0.25vmin, 0 0.125vmin;
+    font-family: "Comic Sans", "Comic Neue", sans-serif;
+  }
+  
+
+.b {
+  border: 0.5vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+.mr{
+  margin-bottom: 0px;
+}
+@media only screen and (max-width:600px){
+h1{
+  font-size: 12px;
+}
+
+
+
+
+}

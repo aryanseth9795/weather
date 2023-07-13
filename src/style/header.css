@@ -1,0 +1,41 @@
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #000;
+    color: #0ec2c2;
+    justify-content: center;
+  }
+  .logoimg {
+    width: 30%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .logo {
+    height: 140px;
+    width: 185px;
+    margin-left: 25px;
+  }
+  .heading {
+    width: 50%;
+  }
+  .last-content {
+    width: 20%;
+  }
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logonameimg{
+    /* height: 40%; */
+    width: 20%;
+}
+.last-content svg {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-size: 45px;
+    cursor: pointer;
+  }

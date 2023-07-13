@@ -1,38 +1,186 @@
 .App {
-  text-align: center;
+  height: 93vh;
+}
+/* <--------header--------------> */
+.headerbox{
+  height: 18%;
+  width: 100%;
+  border: rgb(23, 207, 232) solid 2px;
+  border-bottom: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* <----------container----------> */
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+}
+
+/* <-----navbar-----> */
+.nav {
+  background: #010a0aed;
+  height: 100%;
+  width: 12%;
+  border: white solid 2px;
+}
+/* <-----------Body-------> */
+.body {
+  height: 100%;
+  width: 88%;
+  /* background-position: 0%; */
+/* backface-visibility: hidden; */
+}
+/* <----------searchbar------> */
+.searchbox {
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 8%;
+  background: #000;
+
 }
 
-.App-link {
-  color: #61dafb;
+.searchbar {
+  width: 40%;
+  height: 35px;
+  margin-right: 5px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  background: #f6f3f3;
+  color: rgb(15, 13, 13);
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.8;
+  color: black;
+}
+.searchbutton {
+  width: 7%;
+  height: 38px;
+  background: rgb(0, 183, 255);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 17px;
+  box-shadow: 5px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main{
+height: 92%;
+border: solid green 3px;
+}
+
+/* <----------footer--------> */
+.foot {
+  height: 10%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+
+  .App {
+    height: 93vh;
   }
-  to {
-    transform: rotate(360deg);
+  /* <--------header--------------> */
+  .headerbox{
+    height: 15%;
+    border: rgb(23, 207, 232) solid 5px;
+   
   }
+  
+  /* <----------container----------> */
+  .container {
+    height: 90%;
+  }
+  
+  /* <-----navbar-----> */
+  .nav {
+    background: #010a0aed;
+    height: 100%;
+    width: 20%;
+    border: white solid 2px;
+  }
+  /* <-----------Body-------> */
+  .body {
+    height: 100%;
+    width: 88%;
+    /* background-position: 0%; */
+  /* backface-visibility: hidden; */
+  }
+  /* <----------searchbar------> */
+  .searchbox {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    background: #000;
+  
+  }
+  
+  .searchbar {
+    width: 40%;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    background: #f6f3f3;
+    color: rgb(15, 13, 13);
+  }
+  input::placeholder {
+    font-weight: bold;
+    opacity: 0.8;
+    color: black;
+  }
+  .searchbutton {
+    width: 7%;
+    height: 38px;
+    background: rgb(0, 183, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 17px;
+    box-shadow: 5px;
+    border-radius: 10px;
+  }
+  
+  .main{
+  height: 92%;
+  border: solid green 3px;
+  }
+  
+  /* <----------footer--------> */
+  .foot {
+    height: 10%;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
